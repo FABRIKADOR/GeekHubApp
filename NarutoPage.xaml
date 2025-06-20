@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeekHubApp.NarutoPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Image Source="naruto.png" HeightRequest="200"/>
+            <Label Text="Naruto es un joven ninja con el sue�o de convertirse en Hokage."
+                   FontSize="18" Margin="0,20,0,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,79 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GeekHubApp
+build_property.ProjectDir = D:\Repos visual morado\GeekHubApp\GeekHubApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/DragonBallPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.DragonBallPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DragonBallPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DragonBallPage.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/InicioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.InicioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InicioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InicioPage.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/MarioBrosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.MarioBrosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MarioBrosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MarioBrosPage.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/NarutoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.NarutoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NarutoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NarutoPage.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Repos visual morado/GeekHubApp/GeekHubApp/StrangerThingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GeekHubApp.StrangerThingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StrangerThingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StrangerThingsPage.xaml

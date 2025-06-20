@@ -1,0 +1,1 @@
+D:\Repos visual morado\GeekHubApp\GeekHubApp\GeekHubApp.csproj;x64

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GeekHubApp.InicioPage"
+             BackgroundColor="Black">
+
+	<Grid>
+
+		<!-- Fondo de imagen -->
+		<Image Source="geekhub.jpg"
+               Aspect="AspectFill"
+               Opacity="0.2"
+               InputTransparent="True"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"/>
+
+		<!-- Capa oscura encima -->
+		<BoxView Color="#000000AA"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"
+                 InputTransparent="True"/>
+
+		<!-- Contenido centrado -->
+		<ScrollView>
+			<VerticalStackLayout x:Name="MainLayout"
+                                 Opacity="0"
+                                 Padding="30"
+                                 Spacing="30"
+                                 VerticalOptions="Center"
+                                 HorizontalOptions="Center"
+                                 WidthRequest="350">
+
+				<!-- Titulo -->
+				<Label Text="Bienvenido a GeekHub"
+                       FontSize="34"
+                       TextColor="#00FFFF"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+
+				<!-- Subtitulo -->
+				<Label Text="Explora tus series y juegos favoritos"
+                       FontSize="16"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"/>
+
+				<!-- Botones principales -->
+				<HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
+					<Button Text="Ver Series"
+                            x:Name="btnSeries"
+                            BackgroundColor="#FF3366"
+                            TextColor="White"
+                            WidthRequest="140"
+                            CornerRadius="16"
+                            Clicked="OnSeriesClicked"/>
+
+					<Button Text="Ver Juegos"
+                            x:Name="btnJuegos"
+                            BackgroundColor="#3399FF"
+                            TextColor="White"
+                            WidthRequest="140"
+                            CornerRadius="16"
+                            Clicked="OnJuegosClicked"/>
+				</HorizontalStackLayout>
+
+				<!-- Seccion popular -->
+				<Frame BackgroundColor="#1A1A1A"
+                       Padding="20"
+                       CornerRadius="20"
+                       HasShadow="True">
+					<VerticalStackLayout Spacing="10">
+						<Label Text="Lo mas popular"
+                               FontSize="20"
+                               TextColor="#FFCC00"
+                               FontAttributes="Bold"/>
+						<Label Text="• Dragon Ball Super" TextColor="White"/>
+						<Label Text="• Naruto Shippuden" TextColor="White"/>
+						<Label Text="• Stranger Things 4" TextColor="White"/>
+						<Label Text="• Mario Odyssey" TextColor="White"/>
+					</VerticalStackLayout>
+				</Frame>
+
+				<!-- Navegacion directa -->
+				<VerticalStackLayout Spacing="10">
+					<Label Text="Explora directamente:"
+                           FontSize="18"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+
+					<Button Text="Ir a Dragon Ball"
+                            BackgroundColor="#ffaa00"
+                            TextColor="Black"
+                            Clicked="GoToDragonBall"/>
+					<Button Text="Ir a Naruto"
+                            BackgroundColor="#ff6600"
+                            TextColor="White"
+                            Clicked="GoToNaruto"/>
+					<Button Text="Ir a Stranger Things"
+                            BackgroundColor="#cc33ff"
+                            TextColor="White"
+                            Clicked="GoToStrangerThings"/>
+					<Button Text="Ir a Mario Bros"
+                            BackgroundColor="#00cc66"
+                            TextColor="White"
+                            Clicked="GoToMario"/>
+				</VerticalStackLayout>
+
+				<!-- Pie de pagina -->
+				<Label Text="GeekHub - 2025"
+                       FontSize="12"
+                       HorizontalOptions="Center"
+                       TextColor="Gray"
+                       Margin="0,30,0,0"/>
+			</VerticalStackLayout>
+		</ScrollView>
+	</Grid>
+</ContentPage>

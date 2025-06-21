@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GeekHubApp.DragonBallPage">
+             x:Class="GeekHubApp.DragonBallPage"
+             BackgroundColor="#181818">
 
 	<ScrollView>
-		<VerticalStackLayout Padding="20">
-			<Image Source="dragonball.png" HeightRequest="200"/>
-			<Label Text="Dragon Ball es una serie de anime creada por Akira Toriyama."
-                   FontSize="18" Margin="0,20,0,0"/>
+		<VerticalStackLayout Padding="20" Spacing="24">
+
+
+			<Frame HasShadow="True" CornerRadius="16" Padding="0" BackgroundColor="#222">
+				<Image Source="goku.jpg" HeightRequest="200" Aspect="AspectFill"/>
+			</Frame>
+
+
+			<Label Text="Bola de Dragon"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#E50914"
+                   HorizontalOptions="Center"/>
+			<Label Text="Hayq que encotrar las esferas del dragón"
+                   FontSize="16"
+                   TextColor="White"
+                   LineHeight="1.3"
+                   Margin="0,0,0,10"/>
+
+
+			<Frame HasShadow="True" CornerRadius="12" Padding="16" BackgroundColor="#222">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="Datos destacados"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="#E50914"/>
+					<Label Text="• Estreno: 1998" FontSize="15" TextColor="White"/>
+					<Label Text="• Creador: Akira Tortillama" FontSize="15" TextColor="White"/>
+					<Label Text="• Temporadas: 9" FontSize="15" TextColor="White"/>
+					<Label Text="• Plataforma: CruchyRoll" FontSize="15" TextColor="White"/>
+				</VerticalStackLayout>
+			</Frame>
+
+
 		</VerticalStackLayout>
 	</ScrollView>
-
 </ContentPage>
+
+

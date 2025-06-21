@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GeekHubApp.StrangerThingsPage">
+             x:Class="GeekHubApp.StrangerThingsPage"
+             BackgroundColor="#181818">
 
 	<ScrollView>
-		<VerticalStackLayout Padding="20">
-			<Image Source="strangerthings.png" HeightRequest="200"/>
-			<Label Text="Stranger Things es una serie de ciencia ficcion con misterio y aventuras."
-                   FontSize="18" Margin="0,20,0,0"/>
+		<VerticalStackLayout Padding="20" Spacing="24">
+
+			<!-- Imagen principal -->
+			<Frame HasShadow="True" CornerRadius="16" Padding="0" BackgroundColor="#222">
+				<Image Source="strangerthings.png" HeightRequest="200" Aspect="AspectFill"/>
+			</Frame>
+
+			<!-- Título y descripción -->
+			<Label Text="Stranger Things"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#E50914"
+                   HorizontalOptions="Center"/>
+			<Label Text="Stranger Things es una serie de ciencia ficción, misterio y aventuras ambientada en los años 80. La historia sigue a un grupo de niños en Hawkins, Indiana, quienes descubren experimentos secretos, fuerzas sobrenaturales y una niña con poderes extraordinarios llamada Eleven. La serie es conocida por su atmósfera nostálgica, referencias a la cultura pop y su mezcla de terror y amistad."
+                   FontSize="16"
+                   TextColor="White"
+                   LineHeight="1.3"
+                   Margin="0,0,0,10"/>
+
+			<!-- Imagen de los personajes -->
+			<Frame HasShadow="True" CornerRadius="16" Padding="0" BackgroundColor="#222">
+				<Image Source="strangerthings_cast.jpg" HeightRequest="180" Aspect="AspectFill"/>
+			</Frame>
+
+			<!-- Información adicional en tarjeta -->
+			<Frame HasShadow="True" CornerRadius="12" Padding="16" BackgroundColor="#222">
+				<VerticalStackLayout Spacing="8">
+					<Label Text="Datos destacados"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="#E50914"/>
+					<Label Text="• Estreno: 2016" FontSize="15" TextColor="White"/>
+					<Label Text="• Creador: The Duffer Brothers" FontSize="15" TextColor="White"/>
+					<Label Text="• Temporadas: 4 (hasta 2025)" FontSize="15" TextColor="White"/>
+					<Label Text="• Plataforma: Netflix" FontSize="15" TextColor="White"/>
+				</VerticalStackLayout>
+			</Frame>
+
+			<!-- Imagen del Demogorgon -->
+			<Frame HasShadow="True" CornerRadius="16" Padding="0" BackgroundColor="#222">
+				<Image Source="demogorgon.jpg" HeightRequest="180" Aspect="AspectFill"/>
+			</Frame>
+
 		</VerticalStackLayout>
 	</ScrollView>
-
 </ContentPage>
+
+
